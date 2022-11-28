@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jonape's Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="main-content">
+    <header class="section sec1 header active" id="home">
+      <div class="header-content">
+        <div class="left-header">
+          <div class="h-shape"></div>
+          <div class="image">
+            <img src="images/hero.png" alt="" />
+          </div>
+        </div>
+        <div class="right-header">
+          <h1 class="name">
+            Hi! I'm <span>Jonape.</span> <br />
+            <p>I am interested in</p>
+          </h1>
+          <div class="rotating-text">
+            <p>
+              <span class="word w-1">Software&nbsp;Engineering</span>
+              <span class="word w-2">Web&nbsp;Development</span>
+              <span class="word w-3">Graphic&nbsp;Design</span>
+              <span class="word w-4">Digital&nbsp;Martketing</span>
+              <span class="word w-5">Full&nbsp;Stack&nbsp;Development</span>
+            </p>
+          </div>
+          <script type="text/javascript" src="dist/text-animation.js"></script>
+          <p>
+            I am a Web Developer and Designer for 5 years. A Marketing Designer
+            and Media Buyer for 7 years. Motivated to learn, grow and excel in
+            Software Engineering.
+          </p>
+          <div class="btn-container">
+            <a
+              href="https://drive.google.com/file/d/1dIfV43cSlGmmo4-vj_VFp-udUA_9tg2-/view?usp=sharing"
+              target="_blank"
+              class="main-btn"
+            >
+              <span class="btn-text">Download Resume</span>
+              <span class="btn-icon"><i class="fas fa-download"></i></span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jonapecabug/"
+              target="_blank"
+              class="social-btn"
+            >
+              <span class="btn-icon"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></span>
+            </a>
+            <a
+              href="https://github.com/jonapecabug"
+              target="_blank"
+              class="social-btn"
+            >
+              <span class="btn-icon"><i class="fa-brands fa-github"></i></span>
+            </a>
+            <a
+              href="https://replit.com/@jonapecabug"
+              target="_blank"
+              class="social-btn"
+            >
+              <span class="btn-icon"><i class="fa-solid fa-code"></i> </span>
+            </a>
+            <a
+              href=" https://discord.com/users/1006464444785762347"
+              target="_blank"
+              class="social-btn"
+            >
+              <span class="btn-icon"><i class="fa-brands fa-discord"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section sec2" id="about">
+        <div class="main-title">
+          <h2>About <span>Me</span><span class="bg-text">About Me</span></h2>
+        </div>
+        <div class="about-container">
+          <div class="left-about">
+            <h4>Soft Skills</h4>
+            <p>
+              A creative thinker, fast learner, and solution-oriented team
+              player eager to contribute to team success through hard work,
+              attention to detail, and excellent organizational skills.
+              <br /><br />
+              Motivated to keep learning, grow and excel in Software
+              Engineering. Excellent reputation for resolving problems, working
+              under pressure, and adapting to new situations and challenges.
+            </p>
+            <div class="btn-container">
+              <a
+                href="https://drive.google.com/file/d/1dIfV43cSlGmmo4-vj_VFp-udUA_9tg2-/view?usp=sharing"
+                target="_blank"
+                class="main-btn"
+              >
+                <span class="btn-text">Download Resume</span>
+                <span class="btn-icon"><i class="fas fa-download"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="right-about">
+            <span class="Sphere"></span>
+            <script type="text/javascript" src="dist/TagCloud.min.js"></script>
+            <script>
+              const Texts = [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "Python",
+                "Sass",
+                "Reactjs",
+                "Nodejs",
+                "PostgresSQL",
+                "Express",
+                "Photoshop",
+                "Illustrator",
+                "Adobe",
+                "JAVA",
+                "MySQL",
+                "Marketing",
+                "Advertising",
+                "Graphic Design",
+                "Web Development",
+                "3D modelling",
+                "Artist",
+                "Software Engineering",
+                "Full Stack",
+                "Design",
+              ];
+
+              var tagCloud = TagCloud(".Sphere", Texts, {
+                radius: 250,
+                maxSpeed: "normal",
+                initSpeed: "fast",
+                direction: 145,
+                keep: true,
+              });
+            </script>
+          </div>
+        </div>
+        <div class="about-stats">
+          <h4 class="stat-title">My Learning Progress</h4>
+          <div class="progress-bars">
+            <div class="progress-bar">
+              <p class="prog-title">Python</p>
+              <div class="progress-con">
+                <p class="prog-text">45%</p>
+                <div class="progress">
+                  <span class="python"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">Javascript</p>
+              <div class="progress-con">
+                <p class="prog-text">60%</p>
+                <div class="progress">
+                  <span class="javascript"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">Nodejs</p>
+              <div class="progress-con">
+                <p class="prog-text">55%</p>
+                <div class="progress">
+                  <span class="nodejs"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">Reactjs</p>
+              <div class="progress-con">
+                <p class="prog-text">65%</p>
+                <div class="progress">
+                  <span class="reactjs"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">HTML5</p>
+              <div class="progress-con">
+                <p class="prog-text">90%</p>
+                <div class="progress">
+                  <span class="html"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">CSS3</p>
+              <div class="progress-con">
+                <p class="prog-text">85%</p>
+                <div class="progress">
+                  <span class="css"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h4 class="stat-title">My Experience</h4>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="tl-icon">
+              <i class="fa-solid fa-laptop"></i>
+            </div>
+            <p class="tl-duration">Jul 2022 - Nov 2022</p>
+            <h5>Bootcamper <span> - Stacktrek</span></h5>
+            <h6>Philippines</h6>
+            <ul>
+              <li>
+                Utilized PERN stack to create Sari-Sarify, a point of sale and
+                inventory management system for stores.
+              </li>
+              <li>
+                A JS web app with a to do list, pomodoro, and calendar of
+                events.
+              </li>
+              <li>
+                2 player Hangman game, Text-based motivational game and quiz
+                game in Python
+              </li>
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-icon">
+              <i class="fa-solid fa-money-bill-trend-up"></i>
+            </div>
+            <p class="tl-duration">Feb 2014 - Apr 2017</p>
+            <h5>
+              Advertising Media Buyer<span> - Zeal Innovation PTE LTD</span>
+            </h5>
+            <h6>Far East Finance Building, 048545 Singapore</h6>
+            <ul>
+              <li>
+                Created eye-catching and functional digital design concepts for
+                advertising banners and landing pages for a wide range of niches
+                such as games, mobile apps, and computer utility software.
+              </li>
+              <li>
+                Tested websites, performed troubleshooting, and monitored
+                landing pages and sites for continuous improvement.
+              </li>
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-icon">
+              <i class="fa-solid fa-chalkboard-user"></i>
+            </div>
+            <p class="tl-duration">Jan 2020 - Apr 2022</p>
+            <h5>Junior Trainer <span> - TESDA</span></h5>
+            <h6>Dumaguete City, Negros Oriental Philippines</h6>
+            <ul>
+              <li>
+                Compiled and blended IT training and assessment resources based
+                on TESDA regulations and skill-development needs.
+              </li>
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-icon">
+              <i class="fa-solid fa-pen-nib"></i>
+            </div>
+            <p class="tl-duration">Aug 2012 - Dec 2014</p>
+            <h5>
+              Freelance Graphic Web Designer<span> - Friebach media</span>
+            </h5>
+            <h6>Den Haag, Zuid-Holland, Netherland</h6>
+            <ul>
+              <li>Designed banner ads using Photoshop</li>
+              <li>Written content, blog, and reviews for products and apps</li>
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-icon">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <p class="tl-duration">May 2017 - Mar 2019</p>
+            <h5>Graphic Artist <span> - Luminous Games Limited</span></h5>
+            <h6>Christchurch, Canterbury, New Zealand</h6>
+            <ul>
+              <li>Modeled 3D characters and assets in Blender</li>
+              <li>
+                Created characters, environment and asset designs using Adobe
+                Photoshop and Illustrator.
+              </li>
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-icon">
+              <i class="fa-solid fa-hashtag"></i>
+            </div>
+            <p class="tl-duration">Apr 2012 - Dec 2014</p>
+            <h5>Multimedia Designer <span> - LeKool, Inc.</span></h5>
+            <h6>Chengdu, Sichuan, China</h6>
+            <ul>
+              <li>
+                Worked with programmers to resolve in-game bugs and issues
+                encountered by players
+              </li>
+              <li>
+                Creates graphic arts, landing pages, and gaming videos for
+                Lekool web pages and advertising.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- MY PORTFOLIO SECTION -->
+      <section class="section sec3" id="portfolio">
+        <div class="main-title">
+          <h2>
+            My <span>Projects</span><span class="bg-text">My Projects</span>
+          </h2>
+        </div>
+        <p class="port-text">
+          Here are some recent personal projects I created through self study
+          and bootcamps.
+        </p>
+        <div class="portfolios">
+          <!-- individual item -->
+          <div class="portfolio-item">
+            <div class="image">
+              <img src="images/port1.png" alt="" />
+            </div>
+            <div class="hover-item">
+              <h3>Sari-sarify: POS and Inventory Management Sytem</h3>
+              <div class="icons">
+                <a
+                  href="https://github.com/jonapecabug/store-pos-and-inventory-management-system"
+                  target="_blank"
+                  class="icon"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://github.com/jonapecabug/store-pos-and-inventory-management-system"
+                  target="_blank"
+                  class="icon"
+                >
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- productivity tool -->
+          <div class="portfolio-item">
+            <div class="image">
+              <img src="images/port2.png" alt="" />
+            </div>
+            <div class="hover-item">
+              <h3>Sisyphie: Productivity Tool</h3>
+              <div class="icons">
+                <a
+                  href="https://github.com/jonapecabug/sisyphie-productivity-tool"
+                  target="_blank"
+                  class="icon"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- personal portfolio -->
+          <div class="portfolio-item">
+            <div class="image">
+              <img src="images/port3.png" alt="" />
+            </div>
+            <div class="hover-item">
+              <h3>Personal Portfolio</h3>
+              <div class="icons">
+                <a
+                  href="https://github.com/jonapecabug/personal-portfolio"
+                  target="_blank"
+                  class="icon"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- hangman game -->
+          <div class="portfolio-item">
+            <div class="image">
+              <img src="images/port4.png" alt="" />
+            </div>
+            <div class="hover-item">
+              <h3>Hangman Game</h3>
+              <div class="icons">
+                <a
+                  href="https://github.com/jonapecabug/2player-hangman-game"
+                  target="_blank"
+                  class="icon"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://replit.com/@jonapecabug/2player-hangman-game"
+                  target="_blank"
+                  class="icon"
+                >
+                  <i class="fa-solid fa-code"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- individual item -->
+        </div>
+      </section>
+      <!-- MY ACTIVITIES SECTION-->
+      <section class="section sec4" id="blogs">
+        <div class="blogs-content">
+          <div class="main-title">
+            <h2>
+              My <span>Activities</span
+              ><span class="bg-text">My Activites</span>
+            </h2>
+            <p class="port-text">
+              If I am not busy with work, I often stay productive by creating
+              new projects and doing online courses.
+            </p>
+          </div>
+          <div class="blogs">
+            <div class="blog">
+              <img src="images/blog1.jpg" alt="" />
+              <div class="blog-text">
+                <h4>100 days of Code</h4>
+                <p>
+                  Taking small steps in learning Python programming by building
+                  100 unique projects. Including topics on data science,
+                  automation, website, games and apps. A Udemy course by Dr.
+                  Angela Yu.
+                </p>
+              </div>
+            </div>
+            <div class="blog">
+              <img src="images/blog2.jpg" alt="" />
+              <div class="blog-text">
+                <h4>Google UX Design Professional Certificate</h4>
+                <p>
+                  Currently learning UX foundations and gaining experience with
+                  the design process, including how to build wireframes and
+                  prototypes, conducting user research to test the created
+                  designs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT ME SECTION -->
+      <section class="section sec5" id="contact">
+        <div class="contact-container">
+          <div class="main-title">
+            <h2>
+              Contact <span>Me</span><span class="bg-text">Contact Me</span>
+            </h2>
+          </div>
+          <div class="contact-content-con">
+            <div class="left-contact">
+              <h4>Contact me here</h4>
+              <p>I will reply back to you as soon as possible.</p>
+              <div class="contact-info">
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Location:</span>
+                  </div>
+                  <p>Dumaguete City, Negros Oriental PH</p>
+                </div>
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email:</span>
+                  </div>
+                  <p>
+                    <span>cabugjonape@gmail.com</span>
+                  </p>
+                </div>
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fas fa-user-graduate"></i>
+                    <span>Mobile Number:</span>
+                  </div>
+                  <p>
+                    <span>+639151657184</span>
+                  </p>
+                </div>
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fas fa-user-graduate"></i>
+                    <span>Education:</span>
+                  </div>
+                  <p>
+                    <span>Foundation University, Philippines</span>
+                  </p>
+                </div>
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fas fa-globe-africa"></i>
+                    <span>Languages:</span>
+                  </div>
+                  <p>
+                    <span>English, Tagalog, Bisaya</span>
+                  </p>
+                </div>
+              </div>
+              <div class="contact-icons">
+                <div class="contact-icon">
+                  <a href="https://github.com/jonapecabug" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/jonapecabug/"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/jonapecabug/"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-square-instagram"></i>
+                  </a>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="right-contact">
+              <form action="" class="contact-form">
+                <div class="input-control i-c-2">
+                  <input type="text" required placeholder="name" />
+                  <input type="email" required placeholder="e-mail address" />
+                </div>
+                <div class="input-control">
+                  <input type="text" required placeholder="subject" />
+                </div>
+                <div class="input-control">
+                  <textarea
+                    name=""
+                    id=""
+                    cols="15"
+                    rows="8"
+                    placeholder="Message Here..."
+                  ></textarea>
+                </div>
+
+                <div class="submit-btn">
+                  <a href="#" class="main-btn">
+                    <span class="btn-text">Submit</span>
+                    <span class="btn-icon"
+                      ><i class="fa-solid fa-paper-plane"></i
+                    ></span>
+                  </a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="controls">
+      <div class="control control-1 active-btn" data-id="home">
+        <i class="fa-sharp fa-solid fa-house-user"></i>
+      </div>
+      <div class="control control-2" data-id="about">
+        <i class="fa-solid fa-user"></i>
+      </div>
+      <div class="control control-3" data-id="portfolio">
+        <i class="fa-sharp fa-solid fa-graduation-cap"></i>
+      </div>
+      <div class="control control-4" data-id="blogs">
+        <i class="fa-solid fa-list-check"></i>
+      </div>
+      <div class="control control-5" data-id="contact">
+        <i class="fa-sharp fa-solid fa-address-card"></i>
+      </div>
+    </div>
+    <script src="dist/app.js"></script>
+  </body>
+</html>
